@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"C:\\\\Users\\\\rushi\\\\Downloads\\\\personal-claude-assistant\" && python main.py)",
+      "Bash(python -c *)",
+      "Bash(python *)",
+      "Write(C:\\Users\\rushi\\Downloads\\personal-claude-assistant\\data\\*)",
+      "Read(C:\\Users\\rushi\\Downloads\\personal-claude-assistant\\data\\*)",
+      "Bash(ls C:/Users/rushi/Downloads/personal-claude-assistant && git -C C:/Users/rushi/Downloads/personal-claude-assistant status 2>&1)"
+    ]
+  }
+}
