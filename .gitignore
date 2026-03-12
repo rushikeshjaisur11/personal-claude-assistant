@@ -1,0 +1,22 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Data (runtime-generated)
+data/reminders.json
+
+# Claude session state
+.claude/todos/
+.claude/projects/
+
+# OS
+.DS_Store
+Thumbs.db
